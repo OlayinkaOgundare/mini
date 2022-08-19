@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<title>RWD</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<style type="text/css">
+			.flexparent{
+				display:flex;
+				justify-content: space-between;
+			}
+			
+			#logo{
+				width:30%;
+				height:100px;	
+			}
+			
+			#topmenu{
+				width:65%;
+				height:100px;
+			}
+			#banner{
+				height:200px;
+			}
+			
+			.flexitem{
+				width:32%;
+				height:min-height;
+			}
+			*{
+				border:0px solid #000;
+			}
+			
+			p::first-line{
+				color: brown;
+				font-weight: bold;
+			}
+			
+			p::first-letter{
+				font-size:48px;
+				font-family: elephant, serif;
+			}
+			
+			h2::before, h2::after{
+				content:'***';
+			}
+			
+			tr:nth-child(odd){
+				background-color:black;
+				color:white;
+			}
+			
+			tr:nth-child(even){
+				background-color:grey;
+				color:red;
+			}	
+			
+			
+			#footer{
+				height:100px;
+			}
+		
+		</style>
+		
+	</head>
+	
+	
+	<body>
+			<!-- 1st Section -->
+			<header class="flexparent">
+				<div id="logo">Logo</div>
+				<nav id="topmenu">top menu</nav>
+			</header>
+				
+				<!-- 2nd section -->
+			<div id="banner">banner</div>
+				
+				<!-- 3rd section -->
+			<main class="flexparent">
+				<div class="flexitem">
+					<h2>Moat Alunmi Party</h2>
+					<p>
+					She is a professional who adapts seamlessly to constant processes and technology, she's accurate in mathematical and analytical tasks and also knowledgeable in financial law compliances, and also proficient in SAGE, ERP, Reinsurance systems and Microsoft office packages.She is a professional who adapts seamlessly to constant processes and technology, she's accurate in mathematical and analytical tasks and also knowledgeable in financial law compliances, and also proficient in SAGE, ERP, Reinsurance systems and Microsoft office packages
+					</p>
+				</div>
+				<div class="flexitem">
+				<h2>Moat Alunmi Party</h2>
+					<p>
+					She is a professional who adapts seamlessly to constant processes and technology, she's accurate in mathematical and analytical tasks and also knowledgeable in financial law compliances, and also proficient in SAGE, ERP, Reinsurance systems and Microsoft office packages.She is a professional who adapts seamlessly to constant processes and technology, she's accurate in mathematical and analytical tasks and also knowledgeable in financial law compliances, and also proficient in SAGE, ERP, Reinsurance systems and Microsoft office packages
+					</p>
+				</div>
+				<div class="flexitem">
+					<table width="300">
+						<tr>
+							<th>#</th>
+							<th>Name</th>
+							<th>Score</th>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>Mark rice</td>
+							<td>100</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Bill gate</td>
+							<td>95%</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>larry Page</td>
+							<td>85%</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>Musk Cook</td>
+							<td>99%</td>
+						</tr>
+						
+					</table>
+				
+				</div>
+			</main>
+
+				<!-- 4th section -->
+			<footer id="footer">
+				Copyright &copy; 2022.
+			</footer>
+			
+	</body>
+	
+</html>

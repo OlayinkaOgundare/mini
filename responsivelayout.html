@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<title>RWD</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<style type="text/css">
+		
+			/* universal selector */
+			*{
+				
+				box-sizing: border-box;
+			}
+			.flexparent{
+				display:flex;
+				flex-wrap:wrap;
+			}
+			.flexitem{
+				border:1px solid #000;
+				width:25%;
+				height: 200px;
+			}
+			@media screen and (max-width:768px){
+				.flexitem{
+					width:50%;
+				}
+			}
+			@media screen and (max-width:480px){
+				.flexitem{
+					width:100%;
+				}
+			}
+		</style>
+		
+	</head>
+	
+	
+	<body>
+		<diV class="flexparent">
+			<diV class="flexitem"></div>
+			<diV class="flexitem"></div>
+			<diV class="flexitem"></div>
+			<diV class="flexitem"></div>
+		</div>
+	
+	</body>
+	
+</html>
